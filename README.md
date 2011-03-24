@@ -6,7 +6,11 @@ Videoawesome is a Video URL parser designed to take the "Share" links you cna ge
 
 its pretty simple to install in your Gemfile add the following line:
 
-gem 'videawesome'
+    gem 'videawesome'
+
+if you are not working specifically in a Rails applicaiton then do the following:
+
+    gem install 'videawesome'
 
 run the 'bundle' command and you're good to go.
 
@@ -43,4 +47,5 @@ Once again paste this URL anywhere in the bodyof your article and watch as the t
 
 The URL should look similar to this: http://vimeo.com/20833462
 
+If when using this you do find any problems please feel free to let me know.
 
