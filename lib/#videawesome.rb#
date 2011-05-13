@@ -6,12 +6,12 @@ module Videawesome
 
     def self.youtube_video(url, text, height, width)
       url_ident =url.scan(IDENT).to_s
-      altered_text = text.gsub(url,"<iframe title='YouTube video player' class='youtube-player' type='text/html' width='#{width}' height='#{height}' src='http://www.youtube.com/v/#{url_ident}' frameborder='0'></iframe><br /><small> dont have flash player installed? <a href=\"http://www.youtube.com/v#{url_ident}\" target=\"_blank\">click here</a></small>")
+      altered_text = text.gsub(url,"<iframe title='YouTube video player' class='youtube-player' type='text/html' width='#{width}' height='#{height}' src='http://www.youtube.com/v#{url_ident}' frameborder='0'></iframe><br /><small> dont have flash player installed? <a href=\"http://www.youtube.com/v#{url_ident}\" target=\"_blank\">click here</a></small>")
     end
 
     def self.vimeo_video(url, text, height, width)
       url_ident = url.scan(IDENT).to_s
-      altered_text =  text.gsub(url,"<iframe title='Vimeo Video Player' src='http://player.vimeo.com/video/#{url_ident}' width='#{width}' height='#{height}' frameborder='0'></iframe><br /> <small>dont have flash player installed? <a href=\"http://player.vimeo.com/video#{url_ident}\" target=\"_blank\">click here</a></small>")
+      altered_text =  text.gsub(url,"<iframe title='Vimeo Video Player' src='http://player.vimeo.com/video#{url_ident}' width='#{width}' height='#{height}' frameborder='0'></iframe><br /> <small>dont have flash player installed? <a href=\"http://player.vimeo.com/video#{url_ident}\" target=\"_blank\">click here</a></small>")
     end
 
     def self.parse_video(text, height, width)
