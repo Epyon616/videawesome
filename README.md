@@ -21,6 +21,10 @@ Once you've added Videawesome to your Gemfile and bundled next you'll be wanting
     <%= @article.title %>
     <%= raw(Videawesome::Convertor.parse_video(@article.body, 480, 640) %>
 
+if you do not want to display the message for those who don't have flash installed all you have to do is the following:
+   
+    <%= @article.title %>
+    <%= raw(Videawesome::Convertor.parse_video(@article.body, 480, 640, show_message = false) %>
 basically the main parameters you need to pass to this helper are:
 
  1. the text in which you video may or may not be inlcuded in in this case (@article.body)
