@@ -43,7 +43,7 @@ This differs depending on the Site the video is hosted on:
 #### Youtube
  When viewing the Youtube site there is usually a button underneath the video window which says "Share" click this and it will open up and inside there you will find a text field inside that text field is a URL, copy and paste that anywhere in the body of your text and watch the magic happen right before your eyes.
 
-The URL should be along these lines: http://www.youtube.com/watch?v=xSE9Qk9wkig
+The URL should be along these lines: http://www.youtube.com/watch?v=xSE9Qk9wkig and the newer URL format looks like this http://youtu.be/xhLxnlNcxv8 the gem will piuck up on both of these.
 #### Vimeo
 When Viewing the Vimeo site actually on the video window you will see a button which says "Share" click this and a popup will open, in this popup there will be a link which reads "Preview your share email" click this and the URL you ned to copy and paste will be revealed.
 
