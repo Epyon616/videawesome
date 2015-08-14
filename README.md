@@ -1,6 +1,8 @@
-# Videoawesome
+# Videawesome
 
-Videoawesome (pronounced Vid e awesome) is a Video URL parser designed to take the "Share" links you can get form the likes of Youtube and Vimeo and convert them into actual videos right there on your screen.
+**Videawesome has not been maintained for sometime now and is now defunct **
+
+Videawesome (pronounced Vid e awesome) is a Video URL parser designed to take the "Share" links you can get form the likes of Youtube and Vimeo and convert them into actual videos right there on your screen.
 
 ## Install
 
